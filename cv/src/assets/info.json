@@ -1,0 +1,127 @@
+{
+  "name": "Victor Fernandes",
+  "location": "Porto, Portugal",
+  "phone": "+351 939 327 856",
+  "email": "victorfern91@gmail.com",
+  "welcoming_text": "I'm a Senior Frontend Engineer with a background in Electrical and Computer Engineering, I started my professional journey in the field of Computer Vision, Machine Learning, and Pattern Matching. However, my passion for programming and design soon led me towards front-end projects, where I focused on streamlining the CI/CD pipeline and improving the quality assurance processes. While working on the back-end development of software for the broadcasting industry, I realized my interest in minimal design and creating usable UIs for products, and then I moved into a front-end position. What motivates me is developing clean and reusable code, which results in high-quality software. My obsession leads me to turn every piece of code into a reusable and testable component, which helps in minimizing errors and reduces development time.",
+  "work": [
+    {
+      "company": "Rows",
+      "location": "Porto, Portugal",
+      "position": "Senior Frontend Engineer",
+      "start_date": "03/2021",
+      "end_date": "present",
+      "highlights": [
+        {
+          "summary": "During my first year, I've helped the frontend team to migrate parts of the old architecture made in BackboneJS to a modern React-based approach, I've revamped the webpack configuration, and automated front-end pipelines. Also I've created the Feedzai's ESLint configuration for use it in multiple UI products across the entire company, and developed tools to improve the developer experience in their products, including a YAML-based configuration tool for automating the deploy process of npm packages.",
+          "competences": []
+        },
+        {
+          "summary": "During my time at Feedzai, I had the privilege of creating a brand new product called Feedzai Genome. This was a fantastic opportunity for me as I witnessed the product grow from being made by only 3 people to a full-size team of 11 individuals. In my role, I led the Front-End and QA development for the product, and also had some involvement in DevOps. It was a great experience to be a part of the entire lifecycle of the product, from its initial creation to its successful launch.",
+          "competences": [
+            "Start to be more focused in develop software with a better performance.",
+            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom based canvas framework to bring the best performance and UX into the browser.",
+            "Worked with cypress.io to automate our development and production pipelines.",
+            "I started to work close to gitlab.ci to create our CI/CD pipelines.",
+            "Use puppeteer to create a web app performance tool."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Talkdesk",
+      "location": "Porto, Portugal",
+      "position": "Frontend Engineer",
+      "start_date": "06/2019",
+      "end_date": "03/2021",
+      "highlights": [
+        {
+          "summary": "During my first year, I've helped the frontend team to migrate parts of the old architecture made in BackboneJS to a modern React-based approach, I've revamped the webpack configuration, and automated front-end pipelines. Also I've created the Feedzai's ESLint configuration for use it in multiple UI products across the entire company, and developed tools to improve the developer experience in their products, including a YAML-based configuration tool for automating the deploy process of npm packages.",
+          "competences": []
+        },
+        {
+          "summary": "During my time at Feedzai, I had the privilege of creating a brand new product called Feedzai Genome. This was a fantastic opportunity for me as I witnessed the product grow from being made by only 3 people to a full-size team of 11 individuals. In my role, I led the Front-End and QA development for the product, and also had some involvement in DevOps. It was a great experience to be a part of the entire lifecycle of the product, from its initial creation to its successful launch.",
+          "competences": [
+            "Start to be more focused in develop software with a better performance.",
+            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom based canvas framework to bring the best performance and UX into the browser.",
+            "Worked with cypress.io to automate our development and production pipelines.",
+            "I started to work close to gitlab.ci to create our CI/CD pipelines.",
+            "Use puppeteer to create a web app performance tool."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Feedzai",
+      "location": "Porto & Lisboa, Portugal",
+      "position": "Frontend Engineer",
+      "start_date": "05/2017",
+      "end_date": "03/2019",
+      "highlights": [
+        {
+          "summary": "During my first year, I've helped the frontend team to migrate parts of the old architecture made in BackboneJS to a modern React-based approach, I've revamped the webpack configuration, and automated front-end pipelines. Also I've created the Feedzai's ESLint configuration for use it in multiple UI products across the entire company, and developed tools to improve the developer experience in their products, including a YAML-based configuration tool for automating the deploy process of npm packages.",
+          "competences": []
+        },
+        {
+          "summary": "During my time at Feedzai, I had the privilege of creating a brand new product called Feedzai Genome. This was a fantastic opportunity for me as I witnessed the product grow from being made by only 3 people to a full-size team of 11 individuals. In my role, I led the Front-End and QA development for the product, and also had some involvement in DevOps. It was a great experience to be a part of the entire lifecycle of the product, from its initial creation to its successful launch.",
+          "competences": [
+            "Start to be more focused in develop software with a better performance.",
+            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom based canvas framework to bring the best performance and UX into the browser.",
+            "Worked with cypress.io to automate our development and production pipelines.",
+            "I started to work close to gitlab.ci to create our CI/CD pipelines.",
+            "Use puppeteer to create a web app performance tool."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "MOG Technologies",
+      "location": "Maia, Porto, Portugal",
+      "position": "Software Engineer",
+      "start_date": "10/2013",
+      "end_date": "05/2017",
+      "highlights": [
+        {
+          "summary": "MOG is recognized as a worldwide player in the professional multimedia market, fostering interoperability and efficiency by offering solutions based on open industry standards. MOG provides their solutions for big players of video broadcasting like Al Jazeera, AMC, BBC, Canal+, CBS, FOX, France24, HBO, MTV, NBC, RTP, Sky, Warner Bros and many others."
+        },
+        {
+          "summary": "At MOG I helped to build SkyWatch which is an application designed for video broadcast environments. SkyWatch helps broadcasters manage and improve their media assets workflows and his production environment."
+        },
+        {
+          "summary": "At MOG, almost of time, I worked as Frontend Developer and I was C++ developer (in my early months).",
+          "competences": [
+            "Define the product architecture and lead the front-end technical decisions.",
+            "Building SkyWatch Single Page Application based on HTML5 and JavaScript (using Backbone.js, require.js, Ractive, and other frameworks).",
+            "Creation of unit tests in our UI code (using Karma.js, Jasmine, and Istanbul for code coverage).",
+            "A major refactoring process in order to convert a jQuery based SPA into a Component based SPA.",
+            "Automation of our front-end development and deployment tasks.",
+            "Mentoring the junior developers in our front-end team"
+          ]
+        },
+        {
+          "summary": "Working in SkyWatch UI required implementing features using web browsers native Web APIs like Audio API, Canvas API, Storage, HTMLVideoElement, etc.\n\nOther projects @ MOG:",
+          "competences": [
+            "Turn their CI pipeline autonomous, using Gitlab and Jenkins.",
+            "Creation of some back-end services using Node.js (Apps like slack bots for our builds results, SkyWatch discovery system, etc)."
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Instituto Superior de Engenharia do Porto",
+      "name": "Master's degree in Electrical and Computer Engineering",
+      "location": "Porto, Portugal",
+      "start_date": "2012",
+      "end_date": "2014"
+    },
+    {
+      "school": "Instituto Superior de Engenharia do Porto",
+      "name": "Bachelor's degree in Electrical and Computer Engineering",
+      "location": "Porto, Portugal",
+      "start_date": "2009",
+      "end_date": "2011"
+    }
+  ]
+}
