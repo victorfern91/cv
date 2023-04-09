@@ -1,5 +1,5 @@
 import {
-  Document, Font, Page, PDFViewer, StyleSheet, Text,
+  Document, Font, Page, PDFViewer, StyleSheet, Text, View,
 } from '@react-pdf/renderer';
 import React from 'react';
 
@@ -45,16 +45,21 @@ function App() {
               index,
               array,
             ))}
-            <SectionTitle>Education</SectionTitle>
-            {info.education.map((course, index) => renderWithDividers(<ItemHeader
-              key={course.name}
-              title={course.name}
-              location={course.location}
-              institutionName={course.school}
-              startDate={course.start_date}
-              endDate={course.end_date}
-            />, index, course))}
-            <SectionTitle>Extracurricular activities</SectionTitle>
+            <View wrap={false}>
+              <SectionTitle>Education</SectionTitle>
+              {info.education.map((course, index, array) => renderWithDividers(<ItemHeader
+                key={course.name}
+                title={course.name}
+                location={course.location}
+                institutionName={course.school}
+                startDate={course.start_date}
+                endDate={course.end_date}
+              />, index, array))}
+            </View>
+            <View>
+              <SectionTitle>Extracurricular activities</SectionTitle>
+              <Text>{info.extracurricular_activities}</Text>
+            </View>
             <SectionTitle>Skills</SectionTitle>
           </Page>
         </Document>

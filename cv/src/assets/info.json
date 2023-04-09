@@ -3,7 +3,7 @@
   "location": "Porto, Portugal",
   "phone": "+351 939 327 856",
   "email": "victorfern91@gmail.com",
-  "welcoming_text": "I'm a Senior Frontend Engineer with a background in Electrical and Computer Engineering, I started my professional journey in the field of Computer Vision, Machine Learning, and Pattern Matching. However, my passion for programming and design soon led me towards front-end projects, where I focused on streamlining the CI/CD pipeline and improving the quality assurance processes. While working on the back-end development of software for the broadcasting industry, I realized my interest in minimal design and creating usable UIs for products, and then I moved into a front-end position. What motivates me is developing clean and reusable code, which results in high-quality software. My obsession leads me to turn every piece of code into a reusable and testable component, which helps in minimizing errors and reduces development time.",
+  "welcoming_text": "I am a Senior Frontend Engineer with a background in Electrical and Computer Engineering. Although I started my career in Computer Vision, Machine Learning, and Pattern Matching, I soon discovered my passion for programming and design in front-end projects. I am motivated by developing clean and reusable code, resulting in high-quality software. I enjoy focusing on streamlining the CI/CD pipeline and improving quality assurance processes. My interest in minimal design and creating usable UIs for products led me to specialize in front-end development.",
   "work": [
     {
       "company": "Rows",
@@ -13,18 +13,8 @@
       "end_date": "present",
       "highlights": [
         {
-          "summary": "During my first year, I've helped the frontend team to migrate parts of the old architecture made in BackboneJS to a modern React-based approach, I've revamped the webpack configuration, and automated front-end pipelines. Also I've created the Feedzai's ESLint configuration for use it in multiple UI products across the entire company, and developed tools to improve the developer experience in their products, including a YAML-based configuration tool for automating the deploy process of npm packages.",
-          "competences": []
-        },
-        {
-          "summary": "During my time at Feedzai, I had the privilege of creating a brand new product called Feedzai Genome. This was a fantastic opportunity for me as I witnessed the product grow from being made by only 3 people to a full-size team of 11 individuals. In my role, I led the Front-End and QA development for the product, and also had some involvement in DevOps. It was a great experience to be a part of the entire lifecycle of the product, from its initial creation to its successful launch.",
-          "competences": [
-            "Start to be more focused in develop software with a better performance.",
-            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom based canvas framework to bring the best performance and UX into the browser.",
-            "Worked with cypress.io to automate our development and production pipelines.",
-            "I started to work close to gitlab.ci to create our CI/CD pipelines.",
-            "Use puppeteer to create a web app performance tool."
-          ]
+          "summary": "Rows is a startup company that aims to create a spreadsheet on steroids. Based on a no-code philosophy, Rows intends to give superpowers to basic & advanced spreadsheet users to create spreadsheets that automate and assist with everyday tasks to big problems. I helped improve the application's performance by designing an internal tool that measures the web app performance in our pipelines, providing empirical data during the refactoring process. I developed features from scratch, such as the function wizard, data tables, and pivot tables, and also assisted in some refactors.",
+          "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva"]
         }
       ]
     },
@@ -36,18 +26,8 @@
       "end_date": "03/2021",
       "highlights": [
         {
-          "summary": "During my first year, I've helped the frontend team to migrate parts of the old architecture made in BackboneJS to a modern React-based approach, I've revamped the webpack configuration, and automated front-end pipelines. Also I've created the Feedzai's ESLint configuration for use it in multiple UI products across the entire company, and developed tools to improve the developer experience in their products, including a YAML-based configuration tool for automating the deploy process of npm packages.",
-          "competences": []
-        },
-        {
-          "summary": "During my time at Feedzai, I had the privilege of creating a brand new product called Feedzai Genome. This was a fantastic opportunity for me as I witnessed the product grow from being made by only 3 people to a full-size team of 11 individuals. In my role, I led the Front-End and QA development for the product, and also had some involvement in DevOps. It was a great experience to be a part of the entire lifecycle of the product, from its initial creation to its successful launch.",
-          "competences": [
-            "Start to be more focused in develop software with a better performance.",
-            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom based canvas framework to bring the best performance and UX into the browser.",
-            "Worked with cypress.io to automate our development and production pipelines.",
-            "I started to work close to gitlab.ci to create our CI/CD pipelines.",
-            "Use puppeteer to create a web app performance tool."
-          ]
+          "summary": "Talkdesk is a cloud-based contact center platform that offers a wide range of customer experience solutions for businesses of all sizes. At Talkdesk, I worked on the development of the Studio application, a graph-based tool for managing workflows. In my early days, I found significant performance issues and I invested some time in the implementation of a canvas-based solution that help to achieve a better UX for the product.In addition, I contributed to improving the performance and reliability of our end-to-end tests, which played a crucial role in ensuring the quality of our products, removing their flakiness of them, and giving more confidence to the development team. Also, I created helpful tools that help to automate some steps of the deployment process of some services, those tools were based on Node.js.",
+          "technologies": ["React","Redux","WebdriverIO", "Canvas", "Node.js"]
         }
       ]
     },
@@ -59,17 +39,16 @@
       "end_date": "03/2019",
       "highlights": [
         {
-          "summary": "During my first year, I've helped the frontend team to migrate parts of the old architecture made in BackboneJS to a modern React-based approach, I've revamped the webpack configuration, and automated front-end pipelines. Also I've created the Feedzai's ESLint configuration for use it in multiple UI products across the entire company, and developed tools to improve the developer experience in their products, including a YAML-based configuration tool for automating the deploy process of npm packages.",
-          "competences": []
-        },
-        {
-          "summary": "During my time at Feedzai, I had the privilege of creating a brand new product called Feedzai Genome. This was a fantastic opportunity for me as I witnessed the product grow from being made by only 3 people to a full-size team of 11 individuals. In my role, I led the Front-End and QA development for the product, and also had some involvement in DevOps. It was a great experience to be a part of the entire lifecycle of the product, from its initial creation to its successful launch.",
+          "summary": "In my first year at Feedzai, I assisted the frontend team in migrating from BackboneJS to React and updated the webpack configuration. I automated front-end pipelines and developed tools to enhance the developer experience, including a YAML-based tool for automating npm package deployments. Additionally, I created an ESLint configuration for multiple UI products across the company.\nAt Feedzai, I played a key role in the development of the new product Feedzai Genome, leading the Front-End and QA teams and contributing to DevOps. It was a rewarding experience to be involved in the full lifecycle of the product, from its creation to successful launch, as part of a growing team. In this project I was able to:",
           "competences": [
-            "Start to be more focused in develop software with a better performance.",
-            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom based canvas framework to bring the best performance and UX into the browser.",
-            "Worked with cypress.io to automate our development and production pipelines.",
-            "I started to work close to gitlab.ci to create our CI/CD pipelines.",
+            "Start to be more focused on the development of software focused on performance",
+            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom-based canvas framework to bring the best performance and UX into the browser.",
+            "Work with cypress.io to automate our development and production pipelines.",
+            "Start to work close to gitlab.ci to create our CI/CD pipelines.",
             "Use puppeteer to create a web app performance tool."
+          ],
+          "technologies": [
+            "Webpack", "Backbone", "React", "Redux", "D3.js", "Canvas", "Node.js", "Cypress.io", "Gitlab CI"
           ]
         }
       ]
@@ -82,27 +61,16 @@
       "end_date": "05/2017",
       "highlights": [
         {
-          "summary": "MOG is recognized as a worldwide player in the professional multimedia market, fostering interoperability and efficiency by offering solutions based on open industry standards. MOG provides their solutions for big players of video broadcasting like Al Jazeera, AMC, BBC, Canal+, CBS, FOX, France24, HBO, MTV, NBC, RTP, Sky, Warner Bros and many others."
-        },
-        {
-          "summary": "At MOG I helped to build SkyWatch which is an application designed for video broadcast environments. SkyWatch helps broadcasters manage and improve their media assets workflows and his production environment."
-        },
-        {
-          "summary": "At MOG, almost of time, I worked as Frontend Developer and I was C++ developer (in my early months).",
-          "competences": [
-            "Define the product architecture and lead the front-end technical decisions.",
-            "Building SkyWatch Single Page Application based on HTML5 and JavaScript (using Backbone.js, require.js, Ractive, and other frameworks).",
-            "Creation of unit tests in our UI code (using Karma.js, Jasmine, and Istanbul for code coverage).",
-            "A major refactoring process in order to convert a jQuery based SPA into a Component based SPA.",
-            "Automation of our front-end development and deployment tasks.",
-            "Mentoring the junior developers in our front-end team"
-          ]
-        },
-        {
-          "summary": "Working in SkyWatch UI required implementing features using web browsers native Web APIs like Audio API, Canvas API, Storage, HTMLVideoElement, etc.\n\nOther projects @ MOG:",
-          "competences": [
-            "Turn their CI pipeline autonomous, using Gitlab and Jenkins.",
-            "Creation of some back-end services using Node.js (Apps like slack bots for our builds results, SkyWatch discovery system, etc)."
+          "summary": "MOG is a provider of multimedia solutions using open industry standards, with clients such as Al Jazeera, BBC, CNN, FOX, and many others in the broadcasting industry. At MOG, I contributed to building SkyWatch, an application that streamlines media asset workflows and production environment management for broadcasters. As a Front-end Developer, I was responsible for defining the product architecture, making technical decisions, building the SkyWatch Single Page Application using HTML5 and JavaScript (Backbone.js, require.js, Ractive, and other frameworks), and creating unit tests for our UI code. I also led a major refactoring process to convert a jQuery-based SPA into a Component-based SPA, automated our front-end development and deployment tasks, and mentored junior developers in our team. I implemented features using web browsers' native Web APIs like Audio API, Canvas API, Storage, and HTMLVideoElement. Additionally, I contributed to other projects at MOG, including turning their CI pipeline autonomous using Gitlab and Jenkins and creating back-end services using Node.js, such as Slack bots for our build results and the SkyWatch discovery system.",
+          "technologies": [
+            "C++",
+            "OpenCV",
+            "Backbone",
+            "React",
+            "Canvas",
+            "MPEG Dash",
+            "Jenkins",
+            "Gitlab"
           ]
         }
       ]
@@ -123,5 +91,6 @@
       "start_date": "2009",
       "end_date": "2011"
     }
-  ]
+  ],
+  "extracurricular_activities": "I have a strong passion for leading outdoor activities and my long-term goal is to become a mountain guide. I love planning and executing expeditions in nature, especially in climbing, mountaineering, skiing, and scuba diving. The process of planning outdoor excursions is a thrilling one for me, as it requires careful consideration of all aspects of the trip, from route planning and gear selection to contingency planning and safety measures. I find that this type of planning, coupled with the adrenaline rush of outdoor sports, creates a unique and rewarding experience.\nOverall, I believe that my passion for outdoor leadership and adventure, as well as my interest in creative pursuits, make me well-rounded and enthusiastic.\nAdditionally, I enjoy cinema, photography, and music, which allows me to express my creative side."
 }

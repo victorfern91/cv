@@ -6,7 +6,7 @@ import info from '../assets/info.json';
 const styles = StyleSheet.create({
   container: {
     display: 'flex',
-    margin: '20px 0 30px 0',
+    marginBottom: 20,
     textAlign: 'center',
     textTransform: 'uppercase',
   },
@@ -28,13 +28,13 @@ function Header() {
       <Text style={styles.logo}>{info.name}</Text>
       <Text style={styles.text}>
         {info.location}
-        {' '}
+        {'   '}
         •
-        {' '}
+        {'   '}
         {info.phone}
-        {' '}
+        {'   '}
         •
-        {' '}
+        {'   '}
         {info.email}
       </Text>
     </View>

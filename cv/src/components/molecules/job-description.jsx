@@ -23,7 +23,7 @@ function JobDescription({ job }) {
                 <View
                   key={competence}
                   style={{
-                    display: 'flex', flexDirection: 'row', marginBottom: 3, marginHorizontal: 10,
+                    display: 'flex', flexDirection: 'row', marginBottom: 1, marginHorizontal: 10,
                   }}
                 >
                   <Text style={{
@@ -35,6 +35,32 @@ function JobDescription({ job }) {
                   <Text>{competence}</Text>
                 </View>
               ))}
+            </View>
+            )}
+            {highlight.technologies && (
+            <View style={{ display: 'flex', marginBottom: 2, marginTop: 4 }}>
+              <Text style={{ marginBottom: 4 }}>Technologies:</Text>
+              <View style={{
+                display: 'flex', flexDirection: 'row', gap: 4, alignContent: 'flex-start',
+              }}
+              >
+                {highlight.technologies.map((technology) => (
+                  <Text
+                    style={{
+                      fontSize: 7,
+                      display: 'flex',
+                      backgroundColor: '#6F7474',
+                      color: 'white',
+                      padding: '2px 8px',
+                      justifyContent: 'center',
+                      borderRadius: 8,
+                      alignItems: 'center',
+                    }}
+                  >
+                    {technology}
+                  </Text>
+                ))}
+              </View>
             </View>
             )}
           </View>

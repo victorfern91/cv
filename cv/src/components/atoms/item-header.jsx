@@ -5,9 +5,9 @@ function ItemHeader({
   title, institutionName, location, startDate, endDate,
 }) {
   return (
-    <View wrap={false}>
+    <View>
       <Text style={{
-        textTransform: 'uppercase', fontSize: 9, letterSpacing: 1.5, fontWeight: '900',
+        textTransform: 'uppercase', fontSize: 9, letterSpacing: 1.5, color: '#454A4E',
       }}
       >
         {title}
