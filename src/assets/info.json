@@ -14,7 +14,7 @@
       "highlights": [
         {
           "summary": "Rows is a startup company that aims to create a spreadsheet on steroids. Based on a no-code philosophy, Rows intends to give superpowers to basic & advanced spreadsheet users to create spreadsheets that automate and assist with everyday tasks to big problems. I helped improve the application's performance by designing an internal tool that measures the web app performance in our pipelines, providing empirical data during the refactoring process. I developed features from scratch, such as the function wizard, data tables, and pivot tables, and also assisted in some refactors.",
-          "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva"]
+          "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva", "Puppeteer"]
         }
       ]
     },
@@ -27,7 +27,7 @@
       "highlights": [
         {
           "summary": "Talkdesk is a cloud-based contact center platform that offers a wide range of customer experience solutions for businesses of all sizes. At Talkdesk, I worked on the development of the Studio application, a graph-based tool for managing workflows. In my early days, I found significant performance issues and I invested some time in the implementation of a canvas-based solution that help to achieve a better UX for the product.In addition, I contributed to improving the performance and reliability of our end-to-end tests, which played a crucial role in ensuring the quality of our products, removing their flakiness of them, and giving more confidence to the development team. Also, I created helpful tools that help to automate some steps of the deployment process of some services, those tools were based on Node.js.",
-          "technologies": ["React","Redux","WebdriverIO", "Canvas", "Node.js"]
+          "technologies": ["React","Redux","WebdriverIO", "Canvas", "Node.js", "Puppeteer"]
         }
       ]
     },

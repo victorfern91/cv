@@ -1,5 +1,5 @@
 import {
-  Document, Font, Page, PDFViewer, StyleSheet, Text, View,
+  Document, Font, Page, StyleSheet, Text, View,
 } from '@react-pdf/renderer';
 import React from 'react';
 
@@ -33,38 +33,33 @@ const styles = StyleSheet.create({
 
 function App() {
   return (
-    <div>
-      <PDFViewer height={1000} width={1800}>
-        <Document style={styles.root}>
-          <Page style={styles.page} size="A4" wrap>
-            <Header />
-            <Text>{info.welcoming_text}</Text>
-            <SectionTitle>Work Experience</SectionTitle>
-            {info.work.map((job, index, array) => renderWithDividers(
-              <JobDescription key={job.start_date} job={job} />,
-              index,
-              array,
-            ))}
-            <View wrap={false}>
-              <SectionTitle>Education</SectionTitle>
-              {info.education.map((course, index, array) => renderWithDividers(<ItemHeader
-                key={course.name}
-                title={course.name}
-                location={course.location}
-                institutionName={course.school}
-                startDate={course.start_date}
-                endDate={course.end_date}
-              />, index, array))}
-            </View>
-            <View>
-              <SectionTitle>Extracurricular activities</SectionTitle>
-              <Text>{info.extracurricular_activities}</Text>
-            </View>
-            <SectionTitle>Skills</SectionTitle>
-          </Page>
-        </Document>
-      </PDFViewer>
-    </div>
+    <Document style={styles.root}>
+      <Page style={styles.page} size="A4" wrap>
+        <Header />
+        <Text>{info.welcoming_text}</Text>
+        <SectionTitle>Work Experience</SectionTitle>
+        {info.work.map((job, index, array) => renderWithDividers(
+          <JobDescription key={job.start_date} job={job} />,
+          index,
+          array,
+        ))}
+        <View wrap={false}>
+          <SectionTitle>Education</SectionTitle>
+          {info.education.map((course, index, array) => renderWithDividers(<ItemHeader
+            key={course.name}
+            title={course.name}
+            location={course.location}
+            institutionName={course.school}
+            startDate={course.start_date}
+            endDate={course.end_date}
+          />, index, array))}
+        </View>
+        <View>
+          <SectionTitle>Extracurricular activities</SectionTitle>
+          <Text>{info.extracurricular_activities}</Text>
+        </View>
+      </Page>
+    </Document>
   );
 }
 
