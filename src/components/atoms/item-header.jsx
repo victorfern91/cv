@@ -7,7 +7,7 @@ function ItemHeader({
   return (
     <View>
       <Text style={{
-        textTransform: 'uppercase', fontSize: 9, letterSpacing: 1.5, color: '#454A4E',
+        textTransform: 'uppercase', fontSize: 9, color: '#454A4E',
       }}
       >
         {title}
