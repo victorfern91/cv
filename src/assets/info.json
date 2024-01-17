@@ -7,19 +7,21 @@
   "work": [
     {
       "company": "Rows",
-      "location": "Porto, Portugal",
+      "link": "https://rows.com",
+      "location": "Remote",
       "position": "Senior Frontend Engineer",
       "start_date": "03/2021",
       "end_date": "present",
       "highlights": [
         {
-          "summary": "Rows is a startup company that aims to create a spreadsheet on steroids. Based on a no-code philosophy, Rows intends to give superpowers to basic & advanced spreadsheet users to create spreadsheets that automate and assist with everyday tasks to big problems. I helped improve the application's performance by designing an internal tool that measures the web app performance in our pipelines, providing empirical data during the refactoring process. I developed features from scratch, such as the function wizard, data tables, and pivot tables, and also assisted in some refactors.",
+          "summary": "Rows is a startup company revolutionizing the spreadsheet industry with its \"supercharged\" version of the traditional spreadsheet.\n\nTo enhance the performance of our web application, I designed an internal tool that measures the performance in the pipelines, providing valuable data during the refactoring and feature development process. I also took the initiative to design and implement new features from the ground up, such as the function wizard, data tables, and pivot tables. In addition, I assisted with several refactors, ensuring a smooth and efficient development process.\n\nBeyond these core contributions, I have also developed a color picker that enhances readability when we have a background color. Recently, I developed and shipped the RowsX (Google Chrome extension) from scratch, a powerful tool for scraping web pages and importing data into Rows.com.",
           "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva", "Puppeteer", "JSPerf"]
         }
       ]
     },
     {
       "company": "Talkdesk",
+      "link": "https://talkdesk.com",
       "location": "Porto, Portugal",
       "position": "Frontend Engineer",
       "start_date": "06/2019",
@@ -33,6 +35,7 @@
     },
     {
       "company": "Feedzai",
+      "link": "https://feedzai.com",
       "location": "Porto & Lisboa, Portugal",
       "position": "Frontend Engineer",
       "start_date": "05/2017",
@@ -55,6 +58,7 @@
     },
     {
       "company": "MOG Technologies",
+      "link": "https://mog-technologies.com",
       "location": "Maia, Porto, Portugal",
       "position": "Software Engineer",
       "start_date": "10/2013",

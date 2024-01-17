@@ -1,8 +1,8 @@
-import { Text, View } from '@react-pdf/renderer';
+import { Text, View, Link } from '@react-pdf/renderer';
 import React from 'react';
 
 function ItemHeader({
-  title, institutionName, location, startDate, endDate,
+  title, institutionName, institutionLink, location, startDate, endDate,
 }) {
   return (
     <View>
@@ -14,7 +14,16 @@ function ItemHeader({
       </Text>
       <View style={{ flexDirection: 'row', marginBottom: 4, justifyContent: 'space-between' }}>
         <Text>
-          {institutionName}
+          {institutionLink ?
+            (
+              <Link src={institutionLink} style={{
+                color: '#454A4E', textDecoration: 'underline'
+              }}>
+                {institutionName}
+              </Link>
+            ) :
+            institutionName
+          }
           {' '}
           /
           {' '}

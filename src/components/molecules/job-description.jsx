@@ -10,6 +10,7 @@ function JobDescription({ job }) {
         title={job.position}
         location={job.location}
         institutionName={job.company}
+        institutionLink={job.link}
         startDate={job.start_date}
         endDate={job.end_date}
       />
