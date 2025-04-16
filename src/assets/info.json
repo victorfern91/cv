@@ -3,18 +3,32 @@
   "location": "Porto, Portugal",
   "phone": "+351 939 327 856",
   "email": "victorfern91@gmail.com",
-  "welcoming_text": "I am a Senior Front-end Engineer with a background in Electrical and Computer Engineering. Although I started my career in Computer Vision, Machine Learning, and Pattern Matching, I soon discovered my passion for front-end development. I am motivated by developing clean, reusable code that results in high-quality software. I enjoy streamlining the CI/CD pipeline and improving quality assurance processes. My interest in minimal design and creating usable UIs for products led me to specialize in front-end development.",
+  "welcoming_text": "I'm a Senior Front-end Engineer with 12 years of experience. After starting out in Computer Vision and Machine Learning, I found my passion in front-end development, driven by clean code, usable interfaces, and well-crafted design. I also enjoy refining CI/CD workflows and improving QA processes. My interest in minimal design and creating usable UIs for products led me to specialize in front-end development.",
   "work": [
+    {
+      "company": "Translucent",
+      "link": "https://translucent.io",
+      "location": "Remote",
+      "position": "Senior Frontend Engineer / Tech Lead",
+      "start_date": "03/2024",
+      "end_date": "present",
+      "highlights": [
+        {
+          "summary": "At Translucent, a fin-tech startup focused on multi-entity envrionments, I worked as a tech lead driving front-end improvements. I introduced the first charting and data visualization components, promoted reusable data tables, and led major refactors of the web application.\nMy role involved building some backend endpoints by writing SQL queries that ensured data integration with the UI, while also prototyping internal tools using Retool.",
+          "technologies": ["React", "TailwindCSS", "NextJS", "Zustand","Retool","Kotlin", "Python","PostgreSQL", "AI"]
+        }
+      ]
+    },
     {
       "company": "Rows",
       "link": "https://rows.com",
       "location": "Remote",
       "position": "Senior Frontend Engineer",
       "start_date": "03/2021",
-      "end_date": "present",
+      "end_date": "03/2024",
       "highlights": [
         {
-          "summary": "Rows is a startup company revolutionizing the spreadsheet industry with its \"supercharged\" version of the traditional spreadsheet.\n\nTo enhance the performance of our web application, I designed an internal tool that measures the performance in the pipelines, providing valuable data during the refactoring and feature development process. I also took the initiative to design and implement new features from the ground up, such as the function wizard, data tables, and pivot tables. In addition, I assisted with several refactors, ensuring a smooth and efficient development process.\n\nBeyond these core contributions, I have also developed a color picker that enhances readability when we have a background color. Recently, I developed and shipped the RowsX (Google Chrome extension) from scratch, a powerful tool for scraping web pages and importing data into Rows.com.",
+          "summary": "Rows is a startup company revolutionizing the spreadsheet industry with its \"supercharged\" version of the traditional spreadsheet.\nTo improve our application's performance and efficiency, I designed and implemented an internal tool that streamlines pipeline measurements, providing valuable insights during the refactoring and feature development phases.\nThis includes creating innovative features such as the Function Wizard, data tables, and pivot tables, and refining the development process through thorough refactors. In addition to these core contributions, I developed a color picker that enhances readability by incorporating a background color option, allowing us to easily scan through large amounts of content. I also created RowsX (Google Chrome extension), a powerful tool for web scraping and data import capabilities.",
           "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva", "Puppeteer", "JSPerf"]
         }
       ]
@@ -42,13 +56,11 @@
       "end_date": "03/2019",
       "highlights": [
         {
-          "summary": "At Feedzai, migrated the front-end from BackboneJS to React, updated the webpack configuration, automated front-end pipelines, and developed tools to enhance the developer experience. Additionally, I created an ESLint configuration for multiple UI products across the company.\n I led the Front-End and QA teams for the development and launch of Feedzai Genome and also I contributed to DevOps.\nIn this project, I was able to:",
+          "summary": "During my time at Feedzai, I successfully migrated the front-end from Backbone.js to React, updated our webpack configuration, automated various development pipelines, and developed tools to enhance the developer experience.\nI also created an ESLint configuration for multiple UI products across the company, which streamlined our code quality management process. Additionally, I led cross-functional teams on launching Feedzai Genome, a project that required significant collaboration and automation efforts.\nIn this project, I made significant strides in my focus on performance-focused software development. Specifically:",
           "competences": [
-            "Start to be more focused on the development of software focused on performance.",
-            "Due to their scenario (having more than 10,000 nodes graph in browser) we needed to develop a custom-based canvas framework to bring the best performance and UX into the browser.",
-            "Work with cypress.io to automate our development and production pipelines.",
-            "Start to work close to gitlab.ci to create our CI/CD pipelines.",
-            "Use puppeteer to create a web app performance tool."
+            "I've developed a custom-based canvas framework to optimize browser performance.",
+            "I worked closely with Cypress.io to automate our development and production pipelines, ensuring seamless integration with Gitlab CI.",
+            "I used Puppeteer to create a web app performance tool."
           ],
           "technologies": [
             "Webpack", "Backbone", "React", "Redux", "D3.js", "Web APIs", "Node.js", "Cypress.io", "Gitlab CI"
@@ -65,7 +77,7 @@
       "end_date": "05/2017",
       "highlights": [
         {
-          "summary": "At MOG, a provider of multimedia solutions using open industry standards, I built SkyWatch, an application that streamlines media asset workflows and production environment management for broadcasters. As a Front-End Developer, I defined the product architecture, made technical decisions, and built the SkyWatch Single Page Application using HTML5 and JavaScript (Backbone.js, require.js, Ractive, and other frameworks). I also created unit tests for our UI code, led a major refactoring process, automated our front-end development and deployment tasks, and mentored junior developers. I implemented features using web browsers' native Web APIs and contributed to other projects, such as making the CI pipeline autonomous and creating back-end services.",
+          "summary": "At MOG, a provider of multimedia solutions, I led the front-end development of SkyWatch, an application for managing media workflows in broadcasting environments. I defined the product architecture, made key technical decisions, and built the SPA using HTML5, JavaScript, and frameworks like Backbone.js, Require.js, and Ractive. I also contributed to test coverage, CI pipeline automation, front-end deployment workflows, and mentored junior developers. Additionally, I worked with native Web APIs and supported back-end services.",
           "technologies": [
             "C++",
             "OpenCV",
@@ -97,5 +109,5 @@
       "end_date": "2011"
     }
   ],
-  "extracurricular_activities": "I am a passionate outdoor person and I'm a creative enthusiast seeking a challenging and rewarding career in mountain guiding. I have a strong interest in planning and executing expeditions in nature, especially in climbing, mountaineering, skiing, and scuba diving. I thrill in the careful planning and execution of outdoor excursions, considering all aspects from route planning and gear selection to contingency planning and safety measures. I find that this type of planning, coupled with the adrenaline rush of outdoor sports, creates a unique and rewarding experience.\n\nIn addition to my passion for outdoor leadership and adventure, I also enjoy cinema, photography, and music, which allow me to express my creative side."
+  "extracurricular_activities": "I’m a passionate outdoors enthusiast pursuing a fulfilling career in mountain guiding. I thrive on planning and leading expeditions, with a strong focus on climbing, mountaineering, skiing, and scuba diving. I enjoy the balance between detailed preparation—route planning, gear selection, safety measures and the excitement of adventure.\n\nBeyond the mountains, I’m also drawn to creative outlets like cinema, photography, and music, which allow me to express a different side of myself."
 }
