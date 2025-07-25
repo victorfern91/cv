@@ -6,43 +6,61 @@
   "welcoming_text": "I'm a Senior Front-end Engineer with 12 years of experience. After starting out in Computer Vision and Machine Learning, I found my passion in front-end development, driven by clean code, usable interfaces, and well-crafted design. I also enjoy refining CI/CD workflows and improving QA processes. My interest in minimal design and creating usable UIs for products led me to specialize in front-end development.",
   "work": [
     {
-      "company": "Translucent",
-      "link": "https://translucent.io",
+      "company": "Amplemarket",
+      "link": "https://amplemarket.com",
+      "logo": "amplemarket.jpeg",
       "location": "Remote",
-      "position": "Senior Frontend Engineer / Tech Lead",
-      "start_date": "03/2024",
+      "position": "Senior Frontend Engineer",
+      "start_date": "06/2025",
       "end_date": "present",
       "highlights": [
         {
-          "summary": "At Translucent, a fin-tech startup focused on multi-entity envrionments, I worked as a tech lead driving front-end improvements. I introduced the first charting and data visualization components, promoted reusable data tables, and led major refactors of the web application.\nMy role involved building some backend endpoints by writing SQL queries that ensured data integration with the UI, while also prototyping internal tools using Retool.",
-          "technologies": ["React", "TailwindCSS", "NextJS", "Zustand","Retool","Kotlin", "Python","PostgreSQL", "AI"]
+          "summary": "I am responsible for enhancing the user experience and performance of their in-house built spreadsheet and keep shipping the existing features.",
+          "technologies": ["React", "TailwindCSS", "Tanstack", "SASS"]
+        }
+      ]
+    },
+    {
+      "company": "Translucent",
+      "link": "https://translucent.io",
+      "logo": "translucent.jpeg",
+      "location": "Remote",
+      "position": "Senior Frontend Engineer / Tech Lead",
+      "start_date": "03/2024",
+      "end_date": "06/2025",
+      "highlights": [
+        {
+          "summary": "I worked as a tech lead driving front-end improvements. I introduced the first charting and data visualization components, promoted reusable data tables, and led major refactors of the web application.\nMy role involved building some backend endpoints by writing SQL queries that ensured data integration with the UI, while also prototyping internal tools using Retool.",
+          "technologies": ["React", "TailwindCSS", "NextJS", "Zustand","Retool","Kotlin", "Python","PostgreSQL", "AI", "Tanstack", "Motion"]
         }
       ]
     },
     {
       "company": "Rows",
       "link": "https://rows.com",
+      "logo": "rows.jpeg",
       "location": "Remote",
       "position": "Senior Frontend Engineer",
       "start_date": "03/2021",
       "end_date": "03/2024",
       "highlights": [
         {
-          "summary": "Rows is a startup company revolutionizing the spreadsheet industry with its \"supercharged\" version of the traditional spreadsheet.\nTo improve our application's performance and efficiency, I designed and implemented an internal tool that streamlines pipeline measurements, providing valuable insights during the refactoring and feature development phases.\nThis includes creating innovative features such as the Function Wizard, data tables, and pivot tables, and refining the development process through thorough refactors. In addition to these core contributions, I developed a color picker that enhances readability by incorporating a background color option, allowing us to easily scan through large amounts of content. I also created RowsX (Google Chrome extension), a powerful tool for web scraping and data import capabilities.",
-          "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva", "Puppeteer", "JSPerf"]
+          "summary": "To improve our application's performance and efficiency, I designed and implemented an internal tool that streamlines pipeline measurements, providing valuable insights during the refactoring and feature development phases.\nThis includes creating innovative features such as the Function Wizard, data tables, and pivot tables, and refining the development process through thorough refactors. In addition to these core contributions, I developed a color picker that enhances readability by incorporating a background color option, allowing us to easily scan through large amounts of content. I also created RowsX (Google Chrome extension), a powerful tool for web scraping and data import capabilities.",
+          "technologies": ["React","MobX","WebdriverIO","Apollo","GraphQL", "WebWorker", "Konva", "Puppeteer", "JSPerf", "Chrome Extension"]
         }
       ]
     },
     {
       "company": "Talkdesk",
       "link": "https://talkdesk.com",
+      "logo": "talkdesk.jpeg",
       "location": "Porto, Portugal",
       "position": "Frontend Engineer",
       "start_date": "06/2019",
       "end_date": "03/2021",
       "highlights": [
         {
-          "summary": "At Talkdesk, developed and improved the performance and reliability of the Studio application, a graph-based tool for managing workflows. Implemented a canvas-based solution to improve the user experience and contributed to improving the performance and reliability of end-to-end tests, which played a crucial role in ensuring the quality of products. Created helpful tools to automate steps of the deployment process of some services using Node.js.",
+          "summary": "I improved the performance and reliability of the Studio application, a graph-based tool for managing workflows. Implemented a canvas-based solution to improve the user experience and contributed to improving the performance and reliability of end-to-end tests, which played a crucial role in ensuring the quality of products. Created helpful tools to automate steps of the deployment process of some services using Node.js.",
           "technologies": ["React","Redux","WebdriverIO", "HTML Canvas", "Node.js", "Puppeteer"]
         }
       ]
@@ -50,6 +68,7 @@
     {
       "company": "Feedzai",
       "link": "https://feedzai.com",
+      "logo": "feedzai.jpeg",
       "location": "Porto & Lisboa, Portugal",
       "position": "Frontend Engineer",
       "start_date": "05/2017",
@@ -69,15 +88,16 @@
       ]
     },
     {
-      "company": "MOG Technologies",
+      "company": "MOG (an EVS company)",
       "link": "https://mog-technologies.com",
+      "logo": "mog.jpeg",
       "location": "Maia, Porto, Portugal",
       "position": "Software Engineer",
       "start_date": "10/2013",
       "end_date": "05/2017",
       "highlights": [
         {
-          "summary": "At MOG, a provider of multimedia solutions, I led the front-end development of SkyWatch, an application for managing media workflows in broadcasting environments. I defined the product architecture, made key technical decisions, and built the SPA using HTML5, JavaScript, and frameworks like Backbone.js, Require.js, and Ractive. I also contributed to test coverage, CI pipeline automation, front-end deployment workflows, and mentored junior developers. Additionally, I worked with native Web APIs and supported back-end services.",
+          "summary": "I defined the product architecture, made key technical decisions, and built the SPA using HTML5, JavaScript, and frameworks like Backbone.js, Require.js, and Ractive. I also contributed to test coverage, CI pipeline automation, front-end deployment workflows, and mentored junior developers. Additionally, I worked with native Web APIs and supported back-end services.",
           "technologies": [
             "C++",
             "OpenCV",
@@ -86,6 +106,7 @@
             "Web APIs",
             "Node.js",
             "MPEG Dash",
+            "Video Streaming",
             "Jenkins",
             "Gitlab"
           ]

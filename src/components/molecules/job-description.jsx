@@ -13,6 +13,7 @@ function JobDescription({ job }) {
         institutionLink={job.link}
         startDate={job.start_date}
         endDate={job.end_date}
+        logo={job.logo}
       />
       <View style={{ marginTop: 4 }}>
         {job.highlights.map((highlight) => (
@@ -40,7 +41,6 @@ function JobDescription({ job }) {
             )}
             {highlight.technologies && (
             <View style={{ display: 'flex', marginBottom: 2, marginTop: 4 }}>
-              <Text style={{ marginBottom: 4 }}>Technologies:</Text>
               <View style={{
                 display: 'flex', flexDirection: 'row', gap: 4, alignContent: 'flex-start',
               }}
@@ -48,13 +48,13 @@ function JobDescription({ job }) {
                 {highlight.technologies.map((technology) => (
                   <Text
                     style={{
-                      fontSize: 7,
+                      fontSize: 6,
                       display: 'flex',
                       backgroundColor: '#6F7474',
                       color: 'white',
-                      padding: '2px 8px',
+                      padding: '1px 4px',
                       justifyContent: 'center',
-                      borderRadius: 8,
+                      borderRadius: 2,
                       alignItems: 'center',
                     }}
                   >
